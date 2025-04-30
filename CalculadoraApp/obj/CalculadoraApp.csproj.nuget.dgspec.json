@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Calculadora\\CalculadoraApp\\CalculadoraApp.csproj": {}
+    "D:\\Calculadora\\Calculadora\\CalculadoraApp\\CalculadoraApp.csproj": {}
   },
   "projects": {
-    "C:\\Calculadora\\CalculadoraApp\\CalculadoraApp.csproj": {
+    "D:\\Calculadora\\Calculadora\\CalculadoraApp\\CalculadoraApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Calculadora\\CalculadoraApp\\CalculadoraApp.csproj",
+        "projectUniqueName": "D:\\Calculadora\\Calculadora\\CalculadoraApp\\CalculadoraApp.csproj",
         "projectName": "CalculadoraApp",
-        "projectPath": "C:\\Calculadora\\CalculadoraApp\\CalculadoraApp.csproj",
-        "packagesPath": "C:\\Users\\ALUMNO\\.nuget\\packages\\",
-        "outputPath": "C:\\Calculadora\\CalculadoraApp\\obj\\",
+        "projectPath": "D:\\Calculadora\\Calculadora\\CalculadoraApp\\CalculadoraApp.csproj",
+        "packagesPath": "C:\\Users\\AlumnoETI\\.nuget\\packages\\",
+        "outputPath": "D:\\Calculadora\\Calculadora\\CalculadoraApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ALUMNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlumnoETI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

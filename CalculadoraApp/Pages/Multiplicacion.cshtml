@@ -1,0 +1,23 @@
+@page
+@model Calculadora.Pages.MultiplicacionModel
+@{
+    ViewData["title"] = "Multiplicación";
+}
+
+<h2>Multiplicación</h2>
+
+<form method="post">
+    <div>
+        <label>Número 1:</label>
+        <input asp-form="Numero1" type="number" step="any" required />
+    </div>
+    <div>
+        <label>Número 2:</label>
+        <input asp-for="Numero2" type="number" step="any" required />
+    </div>
+    <button type="submit">Multiplicación</button>
+</form>
+@if (Model.MostrarResultado)
+{
+    <h3>Resultado: @Model.Resultado</h3>
+}

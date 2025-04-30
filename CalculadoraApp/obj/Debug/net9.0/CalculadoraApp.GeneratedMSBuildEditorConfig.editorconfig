@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Calculadora/Calculadora/CalculadoraApp/Pages/Resta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Calculadora/Calculadora/CalculadoraApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,10 +54,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Calculadora/Calculadora/CalculadoraApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Calculadora/Calculadora/CalculadoraApp/Resta.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UmVzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Calculadora/Calculadora/CalculadoraApp/Pages/Shared/_Layout.cshtml]
