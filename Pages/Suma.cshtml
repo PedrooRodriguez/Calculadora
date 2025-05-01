@@ -1,10 +1,10 @@
 @page
-@model CalculadoraApp.Pages.DivisionModel
+@model CalculadoraApp.Pages.RestaModel
 @{
-    ViewData["Title"] = "División";
+    ViewData["Title"] = "Suma";
 }
 
-<h1>División</h1>
+<h1>Suma</h1>
 
 <form method="post">
     <div>
@@ -15,14 +15,10 @@
         <label for="Numero2">Número 2:</label>
         <input type="number" id="Numero2" name="Numero2" value="@Model.Numero2" />
     </div>
-    <button type="submit" class="btn btn-primary">Dividir</button>
+    <button type="submit" class="btn btn-primary">Sumar</button>
 </form>
 
 @if (Model.Resultado.HasValue)
 {
     <h3>Resultado: @Model.Resultado</h3>
-}
-@if (Model.Error != null)
-{
-    <h3 class="text-danger"> @Model.Error</h3>
 }

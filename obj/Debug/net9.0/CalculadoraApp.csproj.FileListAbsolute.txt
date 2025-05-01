@@ -95,3 +95,4 @@ C:\Senati\Calculadora\Calculadora\CalculadoraApp\obj\Debug\net9.0\refint\Calcula
 C:\Senati\Calculadora\Calculadora\CalculadoraApp\obj\Debug\net9.0\CalculadoraApp.pdb
 C:\Senati\Calculadora\Calculadora\CalculadoraApp\obj\Debug\net9.0\CalculadoraApp.genruntimeconfig.cache
 C:\Senati\Calculadora\Calculadora\CalculadoraApp\obj\Debug\net9.0\ref\CalculadoraApp.dll
+C:\Senati\Calculadora\Calculadora\CalculadoraApp\obj\Debug\net9.0\CalculadoraApp.sourcelink.json

@@ -15,7 +15,6 @@ namespace CalculadoraApp.Pages
 
         public void OnPost()
         {
-            // Realiza la resta
             Resultado = Numero1 - Numero2;
         }
     }
