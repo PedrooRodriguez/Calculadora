@@ -1,0 +1,19 @@
+@page
+@model Calculadora.Pages.SumarModel
+
+@{
+    ViewData["title"] = "Sumar";
+}
+<h1>Calculadora de Sumar</h1>
+<hr>
+<form method="post">
+    <label>Coloque el primer Numero:</label><br>
+    <input type="number" asp-form="n1" step="any"><br>
+    <label>Coloque el segundo Numero:</label><br>
+    <input type="number" asp-form="n2"step="any"><br>
+    <button type="submit">Sumar</button>
+</form>
+@if (Model.Resultado !=0)
+{
+    <p>Total: @Model.Resultado</p>
+}
