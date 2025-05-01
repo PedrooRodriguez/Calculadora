@@ -1,0 +1,25 @@
+@page
+@model CalculadoraApp.Pages.RestaModel
+@{
+    ViewData["Title"] = "Resta";
+}
+
+<h1>Resta</h1>
+
+<form method="post">
+    <div>
+        <label for="Numero1">Número 1:</label>
+        <input type="number" id="Numero1" name="Numero1" value="@Model.Numero1" />
+    </div>
+    <div>
+        <label for="Numero2">Número 2:</label>
+        <input type="number" id="Numero2" name="Numero2" value="@Model.Numero2" />
+    </div>
+    <button type="submit" class="btn btn-primary">Restar</button>
+    <button type="reset" id="resetButton">Borrar</button>
+</form>
+
+@if (Model.Resultado.HasValue)
+{
+    <h3>Resultado: @Model.Resultado</h3>
+}

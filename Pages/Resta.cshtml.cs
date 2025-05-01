@@ -1,15 +1,22 @@
-public class RestarModel : PageModel
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace CalculadoraApp.Pages
 {
-    [BindProperty]
-    public double Numero1 { get; set; }
-
-    [BindProperty]
-    public double Numero2 { get; set; }
-
-    public double? Resultado { get; set; }
-
-    public void OnPost()
+    public class RestaModel : PageModel
     {
-        Resultado = Numero1 - Numero2;
+        [BindProperty]
+        public double Numero1 { get; set; }
+
+        [BindProperty]
+        public double Numero2 { get; set; }
+
+        public double? Resultado { get; set; }
+
+        public void OnPost()
+        {
+            // Realiza la resta
+            Resultado = Numero1 - Numero2;
+        }
     }
 }
